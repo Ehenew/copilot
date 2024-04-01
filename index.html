@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA_Compatible" content="IE=edge" />
+    <meta name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+
+    <!-- Ading a favicon -->
+    <!-- for browsers -->
+    <link rel="icon" href="img/favicon.png" />
+    <!-- for iphone  -->
+    <link rel="apple-touch-icon"
+      href="img/apple-touch-icon.png" />
+    <!-- for Android  -->
+    <link rel="manifest" href="manifest.webmanifest" />
+
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module"
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule=""
+      src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.js"></script>
+
+    <title>Copilot with GPT-4</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <!-- <div class="nav-left"> -->
+        <img src="img/microsoft-logo.png"
+          alt="Microsoft Bing logo" width="100px"
+          class="microsoft-logo" />
+
+        <div class="nav-links">
+          <ion-icon class="search-icon"
+            name="search-outline"></ion-icon>
+          <p class="nav-link search" id="search">
+            <span>Search</span>
+          </p>
+        </div>
+
+        <div class="nav-links">
+          <ion-icon class="chat-icon"
+            name="chatbubble-ellipses-outline"></ion-icon>
+          <p class="nav-link chat" id="chat">
+            <span>Chat</span>
+          </p>
+        </div>
+
+        <div class="nav-links">
+          <p class="nav-link account" id="account">
+            <span>Ehenew</span>
+          </p>
+          <ion-icon class="account-icon"
+            name="person-outline"></ion-icon>
+        </div>
+
+        <div class="nav-links">
+          <p class="views">588</p>
+          <ion-icon class="view-icon"
+            name="eye-outline"></ion-icon>
+        </div>
+
+        <div class="nav-links menu">
+          <ion-icon class="menu-icon"
+            name="menu-outline"></ion-icon>
+        </div>
+
+        <div class="nav-links">
+          <p class="nav-link chats" id="account">
+            <span>Chats</span>
+          </p>
+        </div>
+
+        <div class="nav-links">
+          <p class="plugins">Plugins</p>
+        </div>
+    </header>
+
+    <div class="container">
+      <section class="main-page">
+        <div class="section-1" id="section-1">
+          <div class="section-header">
+            <div class="gpt">
+              <img src="img/copilot-logo.png"
+                alt="Copilot Logo" width=50px />
+              <p class="cop"><span>Copilot</span></p>
+            </div>
+            <h3 class="header-tertiary">Your daily AI
+              comapnion</h3>
+            <div>with
+
+              <img src="img/bing-logo.png" alt="Bing Logo"
+                width="12px">
+            </div>
+          </div>
+          <div class="features">
+            <div class="feature">
+              <div class="feature-header">
+                <ion-icon class="organize-icon"
+                  name="apps-outline"></ion-icon>
+                <p class="feature-title title-organize">
+                  Organize</p>
+              </div>
+
+              <p class="feature-description">
+                Create a table that copmares top-sellin
+                womens's running shoes
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-header">
+                <ion-icon class="chat-icon"
+                  name="chatbubbles-outline"></ion-icon>
+                <p class="feature-title title-chat">Chat
+                </p>
+              </div>
+              <p class="feature-description">
+                Summarize the top news and expand on
+                onetopic that's the mosts
+                important
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-header">
+                <ion-icon class="travel-icon"
+                  name="car-outline"></ion-icon>
+                <p class="feature-title title-travel">
+                  Travel</p>
+              </div>
+
+              <p class="feature-description">
+                Where should I travel if I want to have
+                a spritual exprience?
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-header">
+                <ion-icon class="search-icon"
+                  name="search-outline"></ion-icon>
+                <p class="feature-title title-create">
+                  Create</p>
+              </div>
+
+              <p class="feature-description">
+                Write a short essay that analyses the
+                merits of the universal
+                basic income
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-header">
+                <ion-icon class="laugh-icon"
+                  name="happy-outline"></ion-icon>
+                <p class="feature-title title-laugh">Laugh
+                </p>
+              </div>
+
+              <p class="feature-description">
+                Write a joke that a toddler would find
+                hilarious
+              </p>
+            </div>
+
+
+            <div class="feature feature-compare">
+              <div class="feature-header">
+                <ion-icon class="compare-icon"
+                  name="git-compare-outline"></ion-icon>
+                <p class="feature-title title-compare">
+                  Compare</p>
+              </div>
+
+              <p class="feature-description">
+                What are the top three vechiles for a
+                family of six on budjet?
+              </p>
+            </div>
+
+            <div class="feature">
+              <div class="feature-header">
+                <ion-icon class="make-song-icon"
+                  name="musical-notes-outline"></ion-icon>
+                <p class="feature-title title-make-song">
+                  Make a song with Suno
+                </p>
+              </div>
+
+              <p class="feature-description">
+                Make a pop song about a seahorse named
+                Bubbles
+              </p>
+              <a href="#">Terms of use</a>
+              <a href="#">Privacy policy</a>
+            </div>
+          </div>
+
+          <div class="feedback">
+            <p class="bing-text">
+              Bing is powered by AI, so surprises and
+              mistakes are possible.
+              Please share feedbacks so we can improve!
+            </p>
+
+            <div class="links">
+              <a class="link" href="#">Terms</a>
+              <a class="link" href="#">Privacy</a>
+              <a class="link" href="#">FAQs</a>
+            </div>
+          </div>
+
+
+          <!-- <div class="chatttttttttttttt"> -->
+          <h2 class="header-secondary">Choose a
+            conversation style</h2>
+          <div class="conversation">
+            <div class="conversation-style">
+              <p class="conversation-creative">More
+                Creative</p>
+              <p class="conversation-balanced">More
+                Balanced</p>
+              <p class="conversation-precise">More
+                Precise</p>
+            </div>
+          </div>
+
+
+          <div class="chat-to-bing">
+            <div>
+              <button class="btn">
+                <ion-icon class="topic-icon"
+                  name="chatbubble-outline"></ion-icon>
+                New topic</button>
+            </div>
+
+            <div class="chat-box">
+              <p class="ask-anything">Ask me
+                anything...
+              </p>
+
+
+              <!-- microphone icon -->
+              <!-- camera icon -->
+              <!-- upload image icon -->
+              <!-- send sms icon -->
+              <div>
+                <ion-icon class="mic-icon"
+                  name="mic-outline"></ion-icon>
+              </div>
+
+              <div>
+                <ion-icon class="camera-icon"
+                  name="camera-outline"></ion-icon>
+              </div>
+              <div>
+                <ion-icon class="image-icon"
+                  name="image-outline"></ion-icon>
+              </div>
+              <div>
+                <ion-icon class="send-icon"
+                  name="send-outline"></ion-icon>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="side-navs-container">
+        <h4 class="side-nav-header">Copilot GPTs</h4>
+        <div class="side-navs">
+          <div class="side-nav">
+            <div class="gpt">
+              <img src="img/copilot-logo.png"
+                alt="Copilot Logo" width=36px />
+              <h3 class="gpt-name">Copilot</h3>
+            </div>
+            <p class="gpt-role">Bringing you balance of
+              AI
+              and the web</p>
+          </div>
+
+          <div class="side-nav">
+            <div class="gpt">
+              <img src="img/copilot-logo.png"
+                alt="Copilot Logo" width=36px />
+              <h3 class="gpt-name">Designer</h3>
+            </div>
+            <p class="gpt-role">Creating images from
+              words
+            </p>
+          </div>
+
+          <div class="side-nav">
+            <div class="gpt">
+              <img src="img/copilot-logo.png"
+                alt="Copilot Logo" width=36px />
+              <h3 class="gpt-name">Vacation planer</h3>
+            </div>
+            <p class="gpt-role">Discover, plan, and book
+              travels</p>
+          </div>
+
+
+          <div class="side-nav">
+            <div class="gpt">
+              <img src="img/copilot-logo.png"
+                alt="Copilot Logo" width=36px />
+              <h3 class="gpt-name">Cooking assistant
+              </h3>
+            </div>
+            <p class="gpt-role">Find, plan and cook
+              meals
+            </p>
+          </div>
+
+          <div class="side-nav">
+            <div class="gpt">
+              <img src="img/copilot-logo.png"
+                alt="Copilot Logo" width=36px />
+              <h3 class="gpt-name">Fitness trainer</h3>
+            </div>
+            <p class="gpt-role">Fitness programs and
+              wellness tips</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  </body>
+
+</html>

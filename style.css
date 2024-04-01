@@ -1,0 +1,292 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+
+body {
+  font-family: sans-serif;
+  font-weight: 400;
+  background-image: linear-gradient(to right, #eff7f7, #bee8f0c0);
+  padding: 1rem 2.4rem;
+  position: relative;
+}
+
+/*/Navigation */
+.nav {
+  display: flex;
+  height: 2rem;
+  gap: 2.4rem;
+  align-items: center;
+  margin-bottom: 2.4rem;
+}
+
+.nav-links {
+  display: flex;
+  align-self: flex-end;
+  gap: 0.6rem;
+}
+
+
+.search-icon,
+.chat-icon {
+  color: rgb(48, 48, 238);
+}
+
+.search,
+.chat {
+  text-transform: uppercase;
+}
+
+.account {
+  margin-left: 55rem;
+}
+
+
+/*/Side nav */
+.side-nav-container {
+  position: absolute;
+  top: 5%;
+  right: 0;
+}
+
+.side-nav-header {
+  border-top: 1px solid #a4a0a0;
+  padding-top: 2rem;
+  font-weight: 500;
+}
+
+.side-nav {
+  padding: 1rem 2.4rem;
+  background-color: #c1eaf1;
+  box-shadow: 0 3rem 10rem rgba(0, 0, 0, 0.2);
+  /* margin-top: 1.2rem; */
+}
+
+.gpt{
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.gpt-name {
+  margin-bottom: 6px;
+}
+
+.gpt-role {
+  margin-bottom: 16px;
+}
+
+/*/Main page */
+.section-header {
+  text-align: center;
+}
+
+.section-header .gpt{
+  justify-content: center;
+}
+.cop {
+  display: inline-block;
+  font-size: 1.8rem;
+}
+
+.header-tertiary {
+  /* margin: top rihgt bottom left*/
+  margin: 1.2rem 0 0;
+}
+
+/*/Features */
+.container {
+  display: grid;
+  grid-template-columns: 4fr 2fr;
+  -moz-column-gap: 4rem;
+  column-gap: 4rem;
+}
+
+.main-page {
+  height: 100vh;
+  margin: 0 auto;
+  /* background-color: #f7d379; */
+}
+
+.features {
+margin-top: 1.8rem;
+  display: grid;
+  grid-template-columns: 200px 240px 240px 200px;
+  row-gap: 1.2rem;
+  -moz-column-gap: 2rem;
+  column-gap: 2rem;
+  /* width: 65%; */
+  /* margin: 2rem auto; */
+}
+
+
+.feature {
+  padding: 1.6rem;
+  /* margin-right: 2rem;
+  margin-top: 2rem; */
+  background-color: #fff;
+  border-radius: 4%;
+  box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.1);
+}
+
+.feature-title {
+  display: inline;
+}
+
+.feature-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.feature-description {
+  line-height: 1.7;
+  margin-top: 0.8rem;
+}
+
+.feature-compare {
+  grid-column: span 2;
+}
+
+.title-organize {
+  color: rgb(3, 170, 39);
+}
+
+.title-chat {
+  color: rgb(39, 98, 235);
+}
+
+.title-travel {
+  color: rgb(96, 101, 97);
+}
+
+.title-create {
+  color: rgb(9, 100, 247);
+}
+
+.title-laugh {
+  color: rgb(240, 107, 12);
+}
+
+.title-compare {
+  color: rgb(183, 10, 10);
+}
+
+.title-make-song {
+  color: rgb(153, 14, 239);
+}
+
+.bing-text {
+  display: inline-block;
+}
+
+.links {
+  display: inline-block;
+}
+
+.feedback {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+/*  */
+.header-secondary {
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.conversation {
+  display: flex;
+  justify-content: center;
+}
+
+.conversation-style {
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+  background-color: #fff;
+  padding: 0.4rem;
+  box-shadow: 1rem 2rem 20rem rgba(0, 0, 0, 0.3);
+}
+
+.conversation-creative,
+.conversation-precise,
+.conversation-balanced {
+  padding: 1.2rem;
+}
+
+.conversation-balanced {
+  background: linear-gradient(to right, #51aef4, #367def);
+}
+
+.chat-box {
+  /* display: grid;
+  grid-template-columns: 3fr 1fr; */
+  width: 75.5rem;
+  background-color: #fff;
+  padding: 2.4rem;
+  border-bottom: 1px solid #c0bcbc;
+  box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+
+  position: relative;
+}
+
+.ask-anything,.mic-icon,.camera-icon,.image-icon,.send-icon{
+position: absolute;
+  font-size: 16px;
+
+}
+
+.ask-anything{
+   top: 2%;
+  left: 1%;
+}
+
+.mic-icon{  
+  top: 10%;
+  right: 1%;
+}
+
+
+.camera-icon{
+  bottom: 5%;
+  left: 1%;
+}
+
+.image-icon{
+  bottom: 5%;
+  left: 4%;
+}
+
+.send-icon{
+  bottom: 10%;
+  right: 1%;
+}
+
+.chat-to-bing {
+  margin-top: 4rem;
+
+  display: flex;
+  gap: 2.4rem;
+}
+
+
+
+.btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border-radius: 15px;
+  background-image: linear-gradient(to right, rgb(10, 170, 239), rgb(36, 133, 236));
+}
